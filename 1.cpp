@@ -5,12 +5,13 @@ using namespace std;
 
 class admin{
 	
-	public : 
+	protected : 
 	char comp_name[20] = "Dad";
 	int man_salary = 100;
 	int emp_salary = 20;
 	int total_staff = 3;
-	int total_revenue = 500;
+	private :
+int total_revenue = 500;
 	char can_terminate[20] = "Yes";
 	
 	void myAccess(){
